@@ -1,0 +1,15 @@
+#!/bin/bash
+#export OMP_NUM_THREADS=4
+#export OMP_SCHEDULE="DYNAMIC"
+#export OMP_STACKSIZE=10M
+#export KMP_STACKSIZE=256M
+#ulimit -s 16384
+ulimit -s unlimited
+#mpdallexit
+#mpdboot
+
+exe=inho
+STR=$(grep -o '/[0-9]*,[0-9]/' param.f90)
+nproc=$(echo $STR | sed 's/\///g' | sed 's/,/*/g' |bc)
+
+mpirun -x OMP_NUM_THREADS=4 -np $nproc ./$exe < /dev/null > out.log &

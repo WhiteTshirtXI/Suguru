@@ -1,0 +1,146 @@
+ Integral over kernel =   0.99999999999996703     
+ part as crystal 1, random 0:            0
+ Location of sphere #           1
+ x,y,z =    2.6161546626713221        6.1823038911197301        5.3214548575101475     
+ Location of sphere #           2
+ x,y,z =    4.0346860953451111        1.5947696858278526        6.1530487265479437     
+ Location of sphere #           3
+ x,y,z =    7.4565397263324060        6.8717854562352692        5.4138307643326673     
+ Location of sphere #           4
+ x,y,z =    5.8961921246520941        3.1434449533347903        4.9602643712563790     
+ Location of sphere #           5
+ x,y,z =    2.4710027162655468        6.8812996448552024        3.0051186542656536     
+ Location of sphere #           6
+ x,y,z =    5.4140186176689022        3.2939563906214335        3.4585654815432028     
+ Location of sphere #           7
+ x,y,z =   0.78474270977559168        3.4130318706210145        1.4492594635380245     
+ Location of sphere #           8
+ x,y,z =    2.2812521782772883        1.6065282434122645        3.6303273486476630     
+ Location of sphere #           9
+ x,y,z =    4.0408170719969707        7.6434451576895297        1.6803985063778049     
+ Location of sphere #          10
+ x,y,z =    2.2536684110213976        3.6598878895380391        6.8778100456172284     
+ Location of sphere #          11
+ x,y,z =    7.8912841313467919        4.4769890950524491       0.82363402873073355     
+ Location of sphere #          12
+ x,y,z =    4.9869863319562162        5.0941761485917620        3.6243593693695324     
+ Location of sphere #          13
+ x,y,z =    4.0856554846289397        7.2351686288133150       0.57129887297346649     
+ Location of sphere #          14
+ x,y,z =    7.8248857654119881        7.5989619061651021        4.6930514174000235     
+ Location of sphere #          15
+ x,y,z =    2.6292098901983456        1.8601560778405135        6.0431566568204067     
+ Location of sphere #          16
+ x,y,z =    5.5157057415365225        6.3345241588281933        5.7113538908358379     
+ Location of sphere #          17
+ x,y,z =    6.6165451862781133        4.5268425815719660E-002   6.2901920945710614     
+ Location of sphere #          18
+ x,y,z =   0.33058778830733093        5.7022905928490024        6.6628693943957122     
+ Location of sphere #          19
+ x,y,z =    2.9189671160547599        6.2278159815195631        2.3306142332050559     
+ Location of sphere #          20
+ x,y,z =    6.1155971806204130        3.4275262353071518        2.2970355111836422     
+ Location of sphere #          21
+ x,y,z =    2.4720193478929824        3.4439134351849034        2.3358855049347467     
+ Location of sphere #          22
+ x,y,z =    5.6845016072310530       0.53608986944113468        6.0828571968063869     
+ Location of sphere #          23
+ x,y,z =    6.7059316153566977        7.8241943385554968        3.5228891726305491     
+ Location of sphere #          24
+ x,y,z =    6.6298212221361119E-002   6.5888109366202707       0.59320199161125675     
+ Location of sphere #          25
+ x,y,z =    5.1404672930230841        9.2951826042223296E-002   1.8591603669091326     
+ Location of sphere #          26
+ x,y,z =    5.9478630646715409        6.3397918936120616        4.4159991729060497     
+ Location of sphere #          27
+ x,y,z =    3.7572770206966730        5.4931600424851004        5.2285707542305921     
+ Location of sphere #          28
+ x,y,z =    7.5520142142150419       0.22019934514798578        7.2016400775105760     
+ Location of sphere #          29
+ x,y,z =    3.6376479857911743        3.0065305229644652       0.98796765372258211     
+ Location of sphere #          30
+ x,y,z =    4.6864242064416031        3.1020318708373225        6.6648700078314240     
+ RANDOM DEVIATIONS:            5
+Thread     1 masters    6 and is slave for     9 particles.
+ The particles were successfully initialized in thread            1  !
+Thread     2 masters    9 and is slave for     5 particles.
+ The particles were successfully initialized in thread            2  !
+Thread     3 masters    9 and is slave for     8 particles.
+ The particles were successfully initialized in thread            3  !
+Thread     0 masters    6 and is slave for     5 particles.
+ The particles were successfully initialized in thread            0  !
+ STABILITY FOR STREAMWISE MOMENTUM EQUATION
+ Maximum allowed delta t, i, j, k =    6.4348605404622112E-003         115          91          99
+ Solid volume fraction of particles =    3.0679615757712823E-002
+ %1, %2, flag =    1.1253356933593750E-002   99.988746643066406        2.0000000000000000     
+Maximal divergence at i =    84 j =   112 k =    92
+Divergence: Tot = -0.483851E-09 Max =  0.526142E+03 Rank =   3
+ dVlagr, dVeul =    2.4417574435941922E-004   2.4414062500000000E-004
+ dtmax =    6.4348605404622112E-003  dt =    3.2174302702311056E-003
+ time =    3.2174302702311056E-003 istep =            1
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.13570458E+04  0.42925285E+03  0.31614135E+01
+Avrg, min & max elapsed time =   0.44765103E+00  0.44745708E+00  0.44786406E+00
+ time =    6.4348605404622112E-003 istep =            2
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.29949686E+03  0.10547256E+03  0.28395715E+01
+Avrg, min & max elapsed time =   0.43804353E+00  0.43785620E+00  0.43824601E+00
+ time =    9.6522908106933172E-003 istep =            3
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.19899468E+03  0.58881039E+02  0.33796055E+01
+Avrg, min & max elapsed time =   0.43836617E+00  0.43817496E+00  0.43857694E+00
+ time =    1.2869721080924422E-002 istep =            4
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.19349964E+03  0.55038841E+02  0.35156924E+01
+Avrg, min & max elapsed time =   0.44047481E+00  0.44028306E+00  0.44068313E+00
+ time =    1.6087151351155529E-002 istep =            5
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.21060973E+03  0.54895641E+02  0.38365474E+01
+Avrg, min & max elapsed time =   0.55008256E+00  0.55001307E+00  0.55024195E+00
+ time =    1.9304581621386634E-002 istep =            6
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.19782691E+03  0.48026962E+02  0.41190802E+01
+Avrg, min & max elapsed time =   0.44938642E+00  0.44919491E+00  0.44959998E+00
+ time =    2.2522011891617739E-002 istep =            7
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.17522554E+03  0.37826365E+02  0.46323653E+01
+Avrg, min & max elapsed time =   0.44151831E+00  0.44133210E+00  0.44172096E+00
+ time =    2.5739442161848845E-002 istep =            8
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.16925585E+03  0.32924394E+02  0.51407430E+01
+Avrg, min & max elapsed time =   0.44064593E+00  0.44045091E+00  0.44083095E+00
+ time =    2.8956872432079950E-002 istep =            9
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.17261179E+03  0.31282170E+02  0.55178969E+01
+Avrg, min & max elapsed time =   0.43934488E+00  0.43915820E+00  0.43954921E+00
+ time =    3.2174302702311058E-002 istep =           10
+ RK3 step 1
+ RK3 step 2
+ RK3 step 3
+ibmiter,max,aver,ratio =  2  0.17316666E+03  0.29880900E+02  0.57952291E+01
+Maximal divergence at i =    32 j =    54 k =    94
+Divergence: Tot =  0.944793E-11 Max =  0.113687E-12 Rank =   0
+ STABILITY FOR STREAMWISE MOMENTUM EQUATION
+ dtmax =    5.5849154177443731E-003  dt =    2.7924577088721866E-003
+ Maximum allowed delta t, i, j, k =    5.5849154177443731E-003          57         103          28
+ %1, %2, flag =    3.3617019653320313E-002   99.966382980346680        2.0000000000000000     
+Avrg, min & max elapsed time =   0.58591199E+00  0.58585000E+00  0.58605599E+00
+ *** Fim ***

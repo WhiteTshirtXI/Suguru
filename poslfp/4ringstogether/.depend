@@ -1,0 +1,3 @@
+param.o: param.f  
+loadd.o: loadd.f  param.o
+lfp.o: lfp.f  loadd.o param.o

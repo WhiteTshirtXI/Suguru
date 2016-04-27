@@ -1,0 +1,5 @@
+notice that 
+
+we built two libraries in ./lib directories,
+
+with the -r8 option in the make.inc file, one can build up the double precision version.

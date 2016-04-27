@@ -1,0 +1,11 @@
+prefix=/scratch/mehd/nonroot/gsl/gsl-1.16
+exec_prefix=/scratch/mehd/nonroot/gsl/gsl-1.16
+libdir=/scratch/mehd/nonroot/gsl/gsl-1.16/lib
+includedir=/scratch/mehd/nonroot/gsl/gsl-1.16/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.16
+Libs: -L/scratch/mehd/nonroot/gsl/gsl-1.16/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/scratch/mehd/nonroot/gsl/gsl-1.16/include
