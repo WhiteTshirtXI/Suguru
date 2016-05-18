@@ -471,7 +471,7 @@ call interpolation
       write(58,'(7E16.8)') time,ap(1)%x,ap(1)%y,ap(1)%z,ulmean,vlmean,wlmean
       close(58)
 !********************************************writing deformation parameter************************************************************
-!exy1 is deformation parameter using moment of inertia and exy2 is maximum radius/minimum radius
+!exy1 is deformation parameter using moment of inertia and exy2 is obtained from  maximum radius and minimum radius
       open(59,file=datadir//'epsilonxy.txt',position='append')
       write(59,'(3E16.8)') time,exy1,exy2
       close(59)

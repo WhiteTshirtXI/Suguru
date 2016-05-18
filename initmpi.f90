@@ -66,8 +66,8 @@ if ( (radius+offset) .gt. lx/2./dims(1)) then
     write(6,*) 'Change the value of dims(1) in "param.f90".'
     write(6,*) 'Program aborted...'
   endif
-!me  call mpi_finalize(error)
-!me  stop
+me  call mpi_finalize(error)
+me  stop
 endif
 if ( (radius+offset) .gt. ly/2./dims(2)) then
   if (myid.eq.0) then
@@ -75,8 +75,8 @@ if ( (radius+offset) .gt. ly/2./dims(2)) then
     write(6,*) 'Change the value of dims(2) in "param.f90".'
     write(6,*) 'Program aborted...'
   endif
-!me  call mpi_finalize(error) 
-!me  stop
+me  call mpi_finalize(error) 
+me  stop
 endif
 !
 !neighbor(6)/leftback        neighbor(7)/back     neighbor(8)/rightback
