@@ -11,7 +11,7 @@ subroutine collisions
 implicit none
 integer:: i,j,k,p,jmaxcol
 real:: ss,cutoff,fc(NL)
-cutoff=1.
+cutoff=rad0
 do p=1,pmax
 if (ap(p)%mslv>0) then
 do i=1,NL
