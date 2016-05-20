@@ -61,7 +61,7 @@ real,parameter:: shear = 1.!shear rate for Couette flow
 !******************************************************************************************************************************
 !************************************************** collision parameters*******************************************************
 !******************************************************************************************************************************
-real,parameter :: col= 1.1093*(10.**-4.),betacol=15.36,rad0=2.5*dz!col is non dimensional Beta*De in the Morse potential model
+real,parameter :: col= 5.68533*(10.**-2.),betacol=15.36,rad0=2.5*dz!col is non dimensional Beta*De in the Morse potential model
 !for interaction with wall, betacol is non dimensional Beta, rad0 is zero force distance
 !******************************************************************************************************************************
 !****************************************************particle parameters*******************************************************
