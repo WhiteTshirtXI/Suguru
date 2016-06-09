@@ -290,6 +290,9 @@ do istep = begin+1,nstep
     call bounduvw(unew,vnew,wnew)
 
     enddo
+
+    if (ifoverlap==1) call interpolation
+    call bounduvw(unew,vnew,wnew)
 !***********************************************end of Crank Nicolson step for main mesh********************************************
 
 !**********************************************computing pressure correction for main mesh******************************************
@@ -312,8 +315,6 @@ do istep = begin+1,nstep
    
 !*******************************interpolating velocities from main mesh to upper boundary of  overlapped mesh*********************** 
     if (ifoverlap==1) then
-    call interpolation
-    call bounduvwc(unewc,vnewc,wnewc)
 !*************************************************solving for flow in overlapped  mesh**********************************************
 !***********************************************************************************************************************************
 !***********************************************the same procedure for overlapped mesh!*********************************************
@@ -395,11 +396,9 @@ endif
     comp_time = MPI_WTIME()
     call fftuvw(durkold,dvrkold,dwrkold)
 
+
+    if (ifoverlap==1) call interpolation
     call bounduvw(unew,vnew,wnew)
-
-
-call interpolation
-    
 
     call initsolver(1)
     call fillps(p)
@@ -471,7 +470,7 @@ call interpolation
       write(58,'(7E16.8)') time,ap(1)%x,ap(1)%y,ap(1)%z,ulmean,vlmean,wlmean
       close(58)
 !********************************************writing deformation parameter************************************************************
-!exy1 is deformation parameter using moment of inertia and exy2 is obtained from  maximum radius and minimum radius
+!exy1 is deformation parameter using moment of inertia and exy2 is obtained from maximum radius and minimum radius
       open(59,file=datadir//'epsilonxy.txt',position='append')
       write(59,'(3E16.8)') time,exy1,exy2
       close(59)
@@ -488,8 +487,8 @@ call interpolation
     call chkdiv
     if (ifoverlap==1) call chkdivc
 !    call chkdt(dtmax)
-    dt = .0001
 
+    dt = .0001
 
     if (myid .eq. 0) then
       write(6,*) 'dtmax = ', dtmax, ' dt = ', dt

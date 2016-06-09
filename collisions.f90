@@ -22,7 +22,7 @@ do k=-jmaxcol,jmaxcol
 ss=sqrt((ap(p)%zfp(i)**2.)+((j*dy)**2.)+((k*dx)**2.))
 if (ss<rad0) then
 fc(i)=fc(i)+(2.*(col/(Rep**2.)))*(exp(2.*betacol*(rad0-ss))-exp(betacol*(rad0-ss)))*abs(ap(p)%zfp(i)/ss)*(min(ap(p)%area(i),(dx**2.))/max(ap(p)%area(i),(dx**2.)))
-enddo
+endif
 enddo
 enddo
 ap(p)%fzl(i)=ap(p)%fzl(i)+fc(i)
